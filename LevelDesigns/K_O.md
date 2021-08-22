@@ -7,56 +7,54 @@
 
 ## Intro / Verse 1
 
-*Camera* -- Third Person
+**Camera** -- Third Person
 
-*Movement* -- Slow wind - based drifting
+**Movement** -- Slow wind - based drifting
 
-*Environment* - Grasslands
+**Environment** - Grasslands
 
-*Skybox / Lighting* -- Full sun, mid day, partly cloudy
+**Skybox** / Lighting* -- Full sun, mid day, partly cloudy
 
-*Terrain* -- Relatively flat, with mountains 100km in the distance
+**Terrain** -- Relatively flat, with mountains 100km in the distance
 &nbsp;
 
 ## Pre Chorus 1
 
-*Camera* -- pan out, 30 degree raised or Top Down
+**Camera** -- pan out, 30 degree raised or Top Down
 
-*Movement* -- Accelerating wind - based drifting
+**Movement** -- Accelerating wind - based drifting
 
-*Environment* - Grasslands
+**Environment** - Grasslands
 
-*Skybox / Lighting* -- " "
+**Skybox** / Lighting* -- " "
 
-*Terrain* -- On a ridge with large drop off to the right or both sides at times. Grassy plains 1km below
+**Terrain** -- On a ridge with large drop off to the right or both sides at times. Grassy plains 1km below
 &nbsp;
 
 ## Chorus 1
 
-*Camera* -- Third Person, motion blur, unstable bumping
+**Camera** -- Third Person, motion blur, unstable bumping
 
-*Movement* -- Fast paced light speed travel, accelerates in random "boosts"
+**Movement** -- Fast paced light speed travel, accelerates in random "boosts"
 
-*Environment* - Space
+**Environment** - Space
 
-*Skybox / Lighting* -- Open Starry Space, high emission from character and assets
+**Skybox** / Lighting* -- Open Starry Space, high emission from character and assets
 
-*Terrain* -- NONE
+**Terrain** -- NONE
 &nbsp;
 
 ## Interlude
 
-*Camera* -- Top Down
+**Camera** -- Top Down
 
-*Movement* -- Slowly falling down to the plains
+**Movement** -- Slowly decending back into the grassy plains
 
-*Environment* - Space / Grasslands
+**Environment** - Space / Grasslands
 
-*Skybox / Lighting* -- Sunrise
+**Skybox / Lighting** -- Sunrise
 
-*Terrain* -- Relatively flat, with mountains 100km in the distance
-
-*Assets* -- Dense, wind bent highgrass, rocks
+**Terrain** -- Flat plains
 &nbsp;
 
 ## Verse 2 - Reprise
