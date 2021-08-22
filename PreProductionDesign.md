@@ -14,6 +14,10 @@
 &nbsp;
 ## User Experience
 ---
+This game is designed to play along to a live electronic musical performance. A large projected screen will be onstage, where everyone can see the game unfold along side the performance. Audience members will have the opportunity to be the *player* in the game at any moment during the performance. To participate in gameplay, the user will pull out their smartphone, and scan an on stage QR code to download the iso.controller app for android and iphone. This app will utilize the phone's accelerometer to create a game motion controller. Tilting the phone in any direction will influence the character's motion on screen. Another alternative is to have a bluetooth motion controller at the front of the stage for anyone to pickup and start playing.
+
+For now, this will be a single player client based game. Audience members will enter a queue system following the FIFO (first in, first out) convention. There will be a constant *gameplay time* for each player, bouncing the current player out, and bringing in the next player in the queue when their time is up. If there is only one player, there will be no gameplay time limit.
+
 The user will feel a profound sense of freedom in exploring a variety of vast landscapes. Scenery will be simple, but not overwhelming. The player will autonomously follow a path, but still have the ability to explore relative to it. As a result, the player will not feel an obligation to achieve anything in particular; instead, interaction will be incentivised with visually gratifying moments that embellish the musical moments that occur. This experience will feel like the game environment is unfolding in sequence with the live music. The energy of the player will feed into the energy of the live musician(s) and vice versa.
 
 The goal is to create a situation where the audience (users / players) feels more immersed in the musical and visual events occuring as they are actively contributing to the performance and overall experience. The game should bridge the gap between performer(s) and audience by generating meaningful moments that both parties can share, and contribute to.
@@ -31,4 +35,13 @@ Glowing spheres will spawn throughout the player's journey. Colliding with these
 &nbsp;
 ## Environments
 ---
-A game level will coorespond to a particular piece of music. Each level will be designed for that piece of music, with variance in the type of landscape, and overall environment. All levels will follow the same low poly aesthetic however.
+All environments will have the same low poly aesthetic, with a pallet of vibrant colors, and emissive glow. There will be very basic shadowing from light sources. A game level will coorespond to a particular piece of music. Each level will be designed specifically for that piece of music, with variance in the type of landscape, and overall environment. There will be a series of environment templates that can be built upon to generate a level for a piece of music.
+
+**Environment Templates**
+- Grassland
+- Desert
+- Cave
+- Space
+- Beach
+- Ocean
+- Forest
