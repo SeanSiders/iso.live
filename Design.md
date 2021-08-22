@@ -4,10 +4,12 @@
 &nbsp;
 ## Software / Tools
 ---
-&nbsp;
 **Engine** -- *Unity 2020.1.4f1*
-**3D Modelling & Animation** -- *Blender 2.93.3*
+
+**3D Modelling & Animation** -- *Blender 2.93.3*;
+
 **Audio Integration** -- *FMOD Studio 2.00.10*
+
 **Digital Audio Workstation** -- *Logic Pro 10.x.x*
 &nbsp;
 ## User Experience
