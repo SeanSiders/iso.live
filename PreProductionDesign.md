@@ -1,9 +1,9 @@
 # iso.live
----
+
 **A procedurally generated 3D low poly world explorer designed to synchronize with a live electronic musical performance.**
 &nbsp;
 ## Software / Tools
----
+
 **Engine** -- *Unity 2020.1.4f1*
 
 **3D Modelling & Animation** -- *Blender 2.93.3*;
@@ -13,7 +13,7 @@
 **Digital Audio Workstation** -- *Logic Pro 10.x.x*
 &nbsp;
 ## User Experience
----
+
 **Overview**
 This game is designed to play along to a live electronic musical performance. A large projected screen will be onstage, where everyone can see the game unfold along side the performance. Audience members will have the opportunity to be the *player* in the game at any moment during the performance. To participate in gameplay, the user will pull out their smartphone, and scan an on stage QR code to download the iso.controller app for android and iphone. This app will utilize the phone's accelerometer to create a game motion controller. Tilting the phone in any direction will influence the character's motion on screen. Another alternative is to have a bluetooth motion controller at the front of the stage for anyone to pickup and start playing.
 
@@ -34,7 +34,7 @@ The constant player motion will be clearly influenced by an environment related 
 From this base forward movement, the player can accelerate forward, left, right, or deccelerate back by use of the motion controls.
 &nbsp;
 ## Player Character
----
+
 The exterior of the character model will have a dynamic transparency that ranges from an almost clear, emissive *spirit* to a fully present *entity*. In the relative *heart* location of the character, there will be a glowing sphere that changes color based off of the environment, and other gameplay events. When musical dynamic is low to none, the model exterior will be completely transparent, exposing the faintly glowing *heart* sphere. When musical dynamic is high, the character will be fully present, and contain a star-like glow.
 
 The relative emissivity of the character *heart* and exterior will be bound to the lower frequencies of the incoming audio stream by default. The visual result will be a pulsing that is primarily in sync with the musical kick / bass. When lower frequencies are high, the glow intensity is high.
@@ -42,7 +42,7 @@ The relative emissivity of the character *heart* and exterior will be bound to t
 Glowing spheres will spawn throughout the player's journey. Colliding with these spheres will mutate the color, and relative emissive glow of the character.
 &nbsp;
 ## Gameplay
----
+
 The player's journey will be relatively linear, as the in game events coorespond to the progression of the live music. Player relative player movement and rotation will follow along a path, through a procedural level. Motion controls will allow the player to accelerate forward, move to the left/right of the screen, or decelerate to the player's base speed. Camera orientation will be completely determined by the game, in other words, the player's rotation will not be bound to the player controller The pieces of music will follow a pre-determined outline so that is synchronized with the procedurally generated level.
 
 **Controls**
@@ -64,7 +64,7 @@ The player's journey will be relatively linear, as the in game events coorespond
 
 &nbsp;
 ## Environments
----
+
 All environments will have the same low poly aesthetic, with a pallet of vibrant colors, and emissive glows. There will be very basic shadowing from light sources. A game level will coorespond to a particular piece of music. Each level will be designed specifically for that piece of music, with variance in the type of landscape, and overall environment. There will be a series of environment templates, from which a subset can be used to build a procedural level that goes along to a designated piece of music.
 
 **Environment Templates**
@@ -75,3 +75,6 @@ All environments will have the same low poly aesthetic, with a pallet of vibrant
 - Beach
 - Ocean
 - Forest
+
+## Levels
+[K O](LevelDesigns/K_O.md)
