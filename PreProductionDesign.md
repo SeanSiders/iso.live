@@ -20,7 +20,7 @@ This game is designed to play along to a live electronic musical performance. A 
 For now, this will be a single player client based game. Audience members will enter a queue system following the FIFO (first in, first out) convention. There will be a constant *gameplay time* for each player, bouncing the current player out, and bringing in the next player in the queue when their time is up. If there is only one player, there will be no gameplay time limit.
 
 **Player**
-The player will feel a profound sense of freedom in exploring a variety of vast landscapes. Scenery will be simple, but not overwhelming. The player will autonomously follow a path, but still have the ability to explore relative to it. As a result, the player will not feel an obligation to achieve anything in particular; instead, interaction will be incentivised with visually gratifying moments that embellish the musical moments that occur. This experience will feel like the game environment is unfolding in sequence with the live music. The energy of the player will feed into the energy of the live musician(s) and vice versa.
+The player will feel a profound sense of freedom in exploring a variety of vast landscapes. Scenery will be simple, but not overwhelming. The player will autonomously follow a path, but still have the ability to explore relative to it. The motion have a drifting feel to it, that naturally accelerates and decelerates to a range of velocities that are predetermined by in game events. The player will not feel an obligation to achieve anything in particular; instead, interaction will be incentivised with visually gratifying moments that embellish the musical moments that occur. This experience will feel like the game environment is unfolding in sequence with the live music. The energy of the player will feed into the energy of the live musician(s) and vice versa.
 
 The goal is to create a situation where the audience (users / players) feels more immersed in the musical and visual events occuring as they are actively contributing to the performance and overall experience. The game should bridge the gap between performer(s) and audience by generating meaningful moments that both parties can share, and contribute to.
 
@@ -43,10 +43,29 @@ Glowing spheres will spawn throughout the player's journey. Colliding with these
 &nbsp;
 ## Gameplay
 ---
+The player's journey will be relatively linear, as the in game events coorespond to the progression of the live music. Player relative player movement and rotation will follow along a path, through a procedural level. Motion controls will allow the player to accelerate forward, move to the left/right of the screen, or decelerate to the player's base speed. Camera orientation will be completely determined by the game, in other words, the player's rotation will not be bound to the player controller The pieces of music will follow a pre-determined outline so that is synchronized with the procedurally generated level.
+
+**Controls**
+
+| **Binding** | **Behavior** |
+| ----------- | ----------- |
+| Motion Tilt Forward | Accelerate Forward |
+| W | ^^^ |
+| Motion Tilt Back | Decelerate |
+| S | ^^^ |
+| Motion Tilt Left | Drift Left |
+| A | ^^^ |
+| Motion Tilt Right | Drift Right |
+| D | ^^^ |
+| Tap Screen (Pressed) | Charge |
+| SPACE (Pressed) | ^^^ |
+| Tap Screen (Released) | Release Charge / Spawn Projectile(s) |
+| SPACE (Released) | ^^^ |
+
 &nbsp;
 ## Environments
 ---
-All environments will have the same low poly aesthetic, with a pallet of vibrant colors, and emissive glow. There will be very basic shadowing from light sources. A game level will coorespond to a particular piece of music. Each level will be designed specifically for that piece of music, with variance in the type of landscape, and overall environment. There will be a series of environment templates that can be built upon to generate a level for a piece of music.
+All environments will have the same low poly aesthetic, with a pallet of vibrant colors, and emissive glows. There will be very basic shadowing from light sources. A game level will coorespond to a particular piece of music. Each level will be designed specifically for that piece of music, with variance in the type of landscape, and overall environment. There will be a series of environment templates, from which a subset can be used to build a procedural level that goes along to a designated piece of music.
 
 **Environment Templates**
 - Grassland
