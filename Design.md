@@ -1,2 +1,30 @@
 # iso.live
-A procedurally generated low poly world explorer designed to synchronize with a live electronic musical performance
+---
+**A procedurally generated 3D low poly world explorer designed to synchronize with a live electronic musical performance.**
+&nbsp;
+## Software / Tools
+---
+&nbsp;
+**Engine** -- *Unity 2020.1.4f1*
+**3D Modelling & Animation** -- *Blender 2.93.3*
+**Audio Integration** -- *FMOD Studio 2.00.10*
+**Digital Audio Workstation** -- *Logic Pro 10.x.x*
+&nbsp;
+## User Experience
+---
+The user will feel a profound sense of freedom in exploring a variety of vast landscapes. Scenery will be simple, but not overwhelming. The player will autonomously follow a path, but still have the ability to explore relative to it. As a result, the player will not feel an obligation to achieve anything in particular; instead, interaction will be incentivised with visually gratifying moments that embellish the musical moments that occur. This experience will feel like the game environment is unfolding in sequence with the live music. The energy of the player will feed into the energy of the live musician(s) and vice versa.
+
+The goal is to create a situation where the audience (users / players) feels more immersed in the musical and visual events occuring as they are actively contributing to the performance and overall experience. The game should bridge the gap between performer(s) and audience by generating meaningful moments that both parties can share, and contribute to.
+&nbsp;
+## Player Character
+---
+The exterior of the character model will have a dynamic transparency that ranges from an almost clear, emissive *spirit* to a fully present *entity*. In the relative *heart* location of the character, there will be a glowing sphere that changes color based off of the environment, and other gameplay events. When musical dynamic is low to none, the model exterior will be completely transparent, exposing the faintly glowing *heart* sphere. When musical dynamic is high, the character will be fully present, and contain a star-like glow.
+
+The relative emissivity of the character *heart* and exterior will be bound to the lower frequencies of the incoming audio stream by default. The visual result will be a pulsing that is primarily in sync with the musical kick / bass. When lower frequencies are high, the glow intensity is high.
+
+Glowing spheres will spawn throughout the player's journey. Colliding with these spheres will mutate the color, and relative emissive glow of the character.
+&nbsp;
+## Gameplay
+---
+&nbsp;
+## Environments
