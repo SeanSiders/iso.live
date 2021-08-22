@@ -13,7 +13,7 @@
 
 **Environment** - Grasslands
 
-**Skybox** / Lighting* -- Full sun, mid day, partly cloudy
+**Skybox / Lighting** -- Full sun, mid day, partly cloudy
 
 **Terrain** -- Relatively flat, with mountains 100km in the distance
 &nbsp;
@@ -26,7 +26,7 @@
 
 **Environment** - Grasslands
 
-**Skybox** / Lighting* -- " "
+**Skybox / Lighting** -- " "
 
 **Terrain** -- On a ridge with large drop off to the right or both sides at times. Grassy plains 1km below
 &nbsp;
@@ -39,7 +39,7 @@
 
 **Environment** - Space
 
-**Skybox** / Lighting* -- Open Starry Space, high emission from character and assets
+**Skybox / Lighting** -- Open Starry Space, high emission from character and assets
 
 **Terrain** -- NONE
 &nbsp;
