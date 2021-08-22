@@ -30,3 +30,5 @@ Glowing spheres will spawn throughout the player's journey. Colliding with these
 ---
 &nbsp;
 ## Environments
+---
+A game level will coorespond to a particular piece of music. Each level will be designed for that piece of music, with variance in the type of landscape, and overall environment. All levels will follow the same low poly aesthetic however.
