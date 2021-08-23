@@ -1,4 +1,4 @@
-# iso.live Pre Production Design Overview
+# iso.live Pre Production Design
 
 ## User Experience
 
@@ -59,13 +59,15 @@ All environments will have the same low poly aesthetic, with a pallet of vibrant
 
 **Environment Templates**
 
-- Grassland
-- Desert
-- Cave
-- Space
-- Beach
-- Ocean
-- Forest
+[Grasslands](Environments/Grasslands.md)
+[Space](Environments/Space.md)
+[Digital Space](Levels/DigitalSpace.md)
+[Desert](Environments/Desert.md)
+Cave
+Beach
+Ocean
+Forest
+Rainy Marsh
 
 ## Levels
 [K O](LevelDesigns/K_O.md)
