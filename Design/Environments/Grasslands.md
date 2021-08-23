@@ -16,7 +16,7 @@
 - Grassland floor
 - Creek water
 - Creek sand
-- Water falls
+- Waterfalls
 
 #### Particles
 - Wind / Pollen
