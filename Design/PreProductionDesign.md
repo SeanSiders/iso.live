@@ -60,13 +60,21 @@ All environments will have the same low poly aesthetic, with a pallet of vibrant
 **Environment Templates**
 
 [Grasslands](Environments/Grasslands.md)
-[Space](Environments/Space.md)
+
 [Digital Space](Levels/DigitalSpace.md)
-[Desert](Environments/Desert.md)
+
+[Space](Environments/Space.md)
+
+Desert
+
 Cave
+
 Beach
+
 Ocean
+
 Forest
+
 Rainy Marsh
 
 ## Levels
