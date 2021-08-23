@@ -2,14 +2,14 @@
 
 **Environment Templates**
 - Grasslands
-- Space
+- Digital Space
 &nbsp;
 
 ## Intro / Verse 1
 
 **Camera** -- Third Person
 
-**Movement** -- Slow wind - based drifting
+**Movement** -- Slow wind-based drifting
 
 **Environment** - Grasslands
 
@@ -22,7 +22,7 @@
 
 **Camera** -- pan out, 30 degree raised or Top Down
 
-**Movement** -- Accelerating wind - based drifting
+**Movement** -- Accelerating wind-based drifting
 
 **Environment** - Grasslands
 
@@ -37,9 +37,9 @@
 
 **Movement** -- Fast paced light speed travel, accelerates in random "boosts"
 
-**Environment** - Space
+**Environment** - Digital Space
 
-**Skybox / Lighting** -- Open Starry Space, high emission from character and assets
+**Skybox / Lighting** -- Empty black space, high emission from character and assets
 
 **Terrain** -- NONE
 &nbsp;
@@ -48,9 +48,9 @@
 
 **Camera** -- Top Down
 
-**Movement** -- Slowly decending back into the grassy plains
+**Movement** -- Slowly transitioning back into the grassy plains
 
-**Environment** - Space / Grasslands
+**Environment** - Grasslands
 
 **Skybox / Lighting** -- Sunrise
 
@@ -71,5 +71,5 @@
 
 ## Outro
 
-*Bring in the grasslands assets, to combine both in nature, resume space skybox, and fast paced motion. Slow down into the portal for next level*
+*Resolve blackness of digital space with a sunrise and grassland assets fading in. Slow down into the portal for next level*
 &nbsp;
