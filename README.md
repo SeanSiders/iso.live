@@ -1,6 +1,6 @@
 # iso.live
 
-**A procedurally generated 3D low poly world explorer designed to synchronize with a live electronic musical performance.**
+**A 3D low poly world explorer designed to synchronize with a live electronic musical performance.**
 &nbsp;
 ## Software / Tools
 
