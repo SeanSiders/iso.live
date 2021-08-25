@@ -37,7 +37,7 @@ Glowing spheres will spawn throughout the player's journey. Colliding with these
 &nbsp;
 ## Gameplay
 
-The player's journey will be relatively linear, as the in game events coorespond to the progression of the live music. Player relative player movement and rotation will follow along a path, through a procedural level. Motion controls will allow the player to accelerate forward, move to the left/right of the screen, or decelerate to the player's base speed. Camera orientation will be completely determined by the game, in other words, the player's rotation will not be bound to the player controller The pieces of music will follow a pre-determined outline so that is synchronized with the procedurally generated level.
+The player's journey will be relatively linear, as the in game events coorespond to the progression of the live music. Player relative player movement and rotation will follow along a path, through a level. Motion controls will allow the player to accelerate forward, move to the left/right of the screen, or decelerate to the player's base speed. Camera orientation will be completely determined by the game, in other words, the player's rotation will not be bound to the player controller The pieces of music will follow a pre-determined outline so that is synchronized with the level.
 
 **Controls**
 
@@ -58,7 +58,7 @@ The player's journey will be relatively linear, as the in game events coorespond
 
 ## Environments
 
-All environments will have the same low poly aesthetic, with a pallet of vibrant colors, and emissive glows. There will be very basic shadowing from light sources. A game level will coorespond to a particular piece of music. Each level will be designed specifically for that piece of music, with variance in the type of landscape, and overall environment. There will be a series of environment templates, from which a subset can be used to build a procedural level that goes along to a designated piece of music.
+All environments will have the same low poly aesthetic, with a pallet of vibrant colors, and emissive glows. There will be very basic shadowing from light sources. A game level will coorespond to a particular piece of music. Each level will be designed specifically for that piece of music, with variance in the type of landscape, and overall environment. There will be a series of environment templates, from which a subset can be used to build a level that goes along to a designated piece of music.
 
 **Environment Templates**
 
