@@ -9,6 +9,9 @@ public class InstantiateChildren : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        foreach (GameObject child in children) Instantiate(child, transform);
+        foreach (GameObject child in children)
+        {
+            Instantiate(child, transform);
+        }
     }
 }
