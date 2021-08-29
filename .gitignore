@@ -23,7 +23,10 @@
 .vs/
 
 # Apple generated file
-.DS_Store
+*.DS_Store
+
+# Blender generated meta file
+*.blend1
 
 # Gradle cache directory
 .gradle/
