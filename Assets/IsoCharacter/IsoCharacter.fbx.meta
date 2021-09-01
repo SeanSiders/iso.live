@@ -1,32 +1,35 @@
 fileFormatVersion: 2
-guid: 8fa123772800842fa928559bdfc2e0d3
+guid: 47919682337bd4f399ba28cac0881f20
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable:
   - first:
-      74: -2264702827044233874
-    second: Armature|Drift_Fwd_Med-Drift_Fwd_Fast
+      74: 7714660013544367954
+    second: Sit_Down
   - first:
-      74: 2177743948804712236
-    second: Armature|Drift_Fwd_Med-Drift_Fwd_Fast.001
+      74: -1808174565962756846
+    second: Idle_Standing-Walking
   - first:
-      74: 5127440681640244413
-    second: Armature|Drift_Fwd_Slow-Drift_Fwd_Med
+      74: -1610863427237328480
+    second: Walking
   - first:
-      74: -6396241959422444655
-    second: Armature|Drift_Fwd_Slow-Drift_Fwd_Med.001
+      74: 2858790316338893045
+    second: StartWalk
   - first:
-      74: -4922072104762337148
-    second: Armature|Idle_Standing-Lean_Fwd
+      74: -1931806638494219072
+    second: Sitting_Pondering
   - first:
-      74: -905924547811472084
-    second: Armature|Lean_Fwd-Drift_Fwd_Slow
+      74: 2667949614841947897
+    second: Walk
   - first:
-      74: 9145165106044868980
-    second: Armature|Sit_Down
+      74: 1993227238234896908
+    second: Idle_Standing-Drift_Fwd
   - first:
-      74: -5861307570492701819
-    second: Armature|Sit_Down.001
+      74: 1834086064768607106
+    second: Drift_Slow
+  - first:
+      74: 3273572367635426234
+    second: Idle_breathing
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -56,11 +59,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Armature|Drift_Fwd_Med-Drift_Fwd_Fast
-      takeName: Armature|Drift_Fwd_Med-Drift_Fwd_Fast
+      name: Sit_Down
+      takeName: Sit_Down
       internalID: 0
       firstFrame: 0
-      lastFrame: 15
+      lastFrame: 70
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -85,11 +88,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Drift_Fwd_Slow-Drift_Fwd_Med
-      takeName: Armature|Drift_Fwd_Slow-Drift_Fwd_Med
+      name: Idle_Standing-Walking
+      takeName: Idle_Standing-Walking
       internalID: 0
       firstFrame: 0
-      lastFrame: 15
+      lastFrame: 40
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -114,11 +117,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Idle_Standing-Lean_Fwd
-      takeName: Armature|Idle_Standing-Lean_Fwd
+      name: Walking
+      takeName: Walking
       internalID: 0
       firstFrame: 0
-      lastFrame: 30
+      lastFrame: 79
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -143,11 +146,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Lean_Fwd-Drift_Fwd_Slow
-      takeName: Armature|Lean_Fwd-Drift_Fwd_Slow
+      name: StartWalk
+      takeName: StartWalk
       internalID: 0
       firstFrame: 0
-      lastFrame: 15
+      lastFrame: 7
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -172,11 +175,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Sit_Down
-      takeName: Armature|Sit_Down
+      name: Sitting_Pondering
+      takeName: Sitting_Pondering
       internalID: 0
       firstFrame: 0
-      lastFrame: 30
+      lastFrame: 240
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -184,6 +187,122 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle_Standing-Drift_Fwd
+      takeName: Idle_Standing-Drift_Fwd
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Drift_Slow
+      takeName: Drift_Slow
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle_breathing
+      takeName: Idle_breathing
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -263,7 +382,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
