@@ -2660,56 +2660,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a478bb24566204b7ead91edaa55abc4e, type: 3}
---- !u!1 &827075334
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 827075336}
-  - component: {fileID: 827075335}
-  m_Layer: 0
-  m_Name: Music
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!320 &827075335
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827075334}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 3f7cb1240011240ed8e7f81357db0a7c, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: 4184143225459895114, guid: 3f7cb1240011240ed8e7f81357db0a7c, type: 2}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References: []
---- !u!4 &827075336
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827075334}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &847473126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5280,6 +5230,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6054075001854385371, guid: a478bb24566204b7ead91edaa55abc4e, type: 3}
   m_PrefabInstance: {fileID: 1693373208}
   m_PrefabAsset: {fileID: 0}
+--- !u!137 &1652523522 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 3404113170478140414, guid: 0a367e12839654438b26c24d0aa963eb, type: 3}
+  m_PrefabInstance: {fileID: 3404113171790561634}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1659303031
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6473,7 +6428,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: -0.38229305, z: -2.0194926, w: -0.091707446}
+  m_BoundingSphereOverride: {x: 0, y: -1.2304037e+21, z: 4.5901e-41, w: 1.3824426e+10}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -6558,6 +6513,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2023891395552187457, guid: 0a367e12839654438b26c24d0aa963eb, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2339478165700165795, guid: 0a367e12839654438b26c24d0aa963eb, type: 3}
+      propertyPath: renderers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2339478165700165795, guid: 0a367e12839654438b26c24d0aa963eb, type: 3}
+      propertyPath: renderers.Array.data[0]
+      value: 
+      objectReference: {fileID: 1652523522}
+    - target: {fileID: 6443983329183374552, guid: 0a367e12839654438b26c24d0aa963eb, type: 3}
+      propertyPath: m_SceneBindings.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6443983329183374552, guid: 0a367e12839654438b26c24d0aa963eb, type: 3}
+      propertyPath: m_SceneBindings.Array.data[1].key
+      value: 
+      objectReference: {fileID: -6986404620835112124, guid: 3f7cb1240011240ed8e7f81357db0a7c, type: 2}
+    - target: {fileID: 6443983329183374552, guid: 0a367e12839654438b26c24d0aa963eb, type: 3}
+      propertyPath: m_SceneBindings.Array.data[2].key
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7631966451828754537, guid: 0a367e12839654438b26c24d0aa963eb, type: 3}
       propertyPath: m_Name
       value: Player

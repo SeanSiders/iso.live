@@ -32,9 +32,9 @@ ModelImporter:
     second: Idle_breathing
   externalObjects: {}
   materials:
-    materialImportMode: 1
-    materialName: 0
-    materialSearch: 1
+    materialImportMode: 0
+    materialName: 2
+    materialSearch: 0
     materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
